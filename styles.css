@@ -16,7 +16,7 @@ header {
   text-align: center;
   font-family: 'Montserrat', 'Georgia', 'Times', serif;
   font-weight: 800; /* ExtraBold weight */
-  font-size: 80px;
+  font-size: 800px;
 }
 h1 {
   margin: 0;
@@ -28,7 +28,7 @@ p {
 }
 .btn {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #091b43;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;

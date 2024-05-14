@@ -11,11 +11,12 @@ body {
 }
 header {
   background-color: #071739;
-  color: #fff;
+  color: #efefef;
   padding: 20px;
   text-align: center;
   font-family: 'Montserrat', 'Georgia', 'Times', serif;
   font-weight: 800; /* ExtraBold weight */
+  
   
 }
 h1 {

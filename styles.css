@@ -14,7 +14,8 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-family: 'Georgia', 'Times', serif; /* Different font for the header */
+  font-family: 'Montserrat', 'Georgia', 'Times', serif; /* Different font for the header */
+  font-weight: 800; /* ExtraBold weight */
 }
 h1 {
   margin: 0;

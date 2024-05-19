@@ -16,10 +16,22 @@ header {
   text-align: center;
   font-family: 'Montserrat', 'Georgia', 'Times', serif;
   font-weight: 800; /* ExtraBold weight */
-  
-  
 }
+  
+header.headerPlatform {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(251, 80, 80, 0.876);
+    background-color: #1a3d88;
+}
+
 h1 {
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+}
+
+h1.h1Platform {
   margin: 0;
   font-size: 80px;
   text-align: center;
@@ -36,6 +48,12 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  text-align: center;
+  margin: 0;
+  font-size: 80px;
+}
+
 p {
   font-size: 18px;
   line-height: 1.6;
@@ -43,13 +61,14 @@ p {
 }
 .btn {
   display: inline-block;
-  background-color: #0b3ba1;
+  background-color: #0a3995;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
   margin-top: 20px;
+  width:10%
 }
 .btn:hover {
   background-color: #0056b3;

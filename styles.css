@@ -1,42 +1,24 @@
 body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f3f3f3;
 }
-header {
-  background-color: #071739;
-  color: #efefef;
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
   padding: 20px;
   text-align: center;
-  font-family: 'Montserrat', 'Georgia', 'Times', serif;
-  font-weight: 800; /* ExtraBold weight */
-  
-  
 }
-h1 {
-  margin: 0;
-  font-size: 80px;
-}
-p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-.btn {
-  display: inline-block;
-  background-color: #0b3ba1;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  margin-top: 20px;
-}
-.btn:hover {
-  background-color: #0056b3;
+
+form input[type="text"], form input[type="email"], form input[type="submit"] {
+  margin-top: 5px;
 }

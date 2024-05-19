@@ -22,13 +22,16 @@ header {
 h1 {
   margin: 0;
   font-size: 80px;
+  text-align: center;
 }
 
 h2 {
   margin: 0;
   font-size: 40px;
+  text-align: center;
 }
 h3 {
+  text-align: center;
   margin: 0;
   font-size: 20px;
 }
@@ -36,6 +39,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.6;
+  text-align: center;
 }
 .btn {
   display: inline-block;
@@ -57,4 +61,10 @@ nav {
   text-align: center;
   padding: 10px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+
+form {
+  text-align: center;
 }

@@ -1,24 +1,60 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
-
-header, footer {
-  text-align: center;
-  padding: 1em;
-  background-color: #f3f3f3;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: black;
-}
-
-main {
+header {
+  background-color: #071739;
+  color: #efefef;
   padding: 20px;
   text-align: center;
+  font-family: 'Montserrat', 'Georgia', 'Times', serif;
+  font-weight: 800; /* ExtraBold weight */
+  
+  
+}
+h1 {
+  margin: 0;
+  font-size: 80px;
 }
 
-form input[type="text"], form input[type="email"], form input[type="submit"] {
-  margin-top: 5px;
+h2 {
+  margin: 0;
+  font-size: 40px;
+}
+h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  background-color: #0b3ba1;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+nav {
+  background-color: #071739; /* Dark blue background */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }

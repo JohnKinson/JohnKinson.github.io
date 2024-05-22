@@ -70,6 +70,18 @@ p {
   margin-top: 20px;
   width:10%
 }
+
+.btnp {
+  display: inline-block;
+  background-color: #7b0a95;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  width:10%
+}
 .btn:hover {
   background-color: #0056b3;
 }
@@ -82,7 +94,13 @@ nav {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-
+nav.p {
+  background-color: #1a3d88; /* Dark blue background */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
 
 form {
   text-align: center;
